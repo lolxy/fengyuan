@@ -1,0 +1,42 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" class="swipercss">
+  <block wx:for="{{imgUrls}}" wx:key="slideId">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode="scaleToFill"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!--导航栏-->
+<view class="navlist">
+  <view class="libox" wx:for="{{menulist}}" wx:key="menuId">
+    <navigator url="{{item.url}}" hover-class="none">
+      <view class="pic">
+        <image src="{{item.icon}}" mode="widthFix"></image>
+      </view>
+      <text>{{item.tit}}</text>
+    </navigator>
+  </view>
+</view>
+<!--//导航栏-->
+
+<!--产品推荐-->
+<view class="recommendlist">
+  <view class="h2css">
+    <text>产品推荐</text>
+  </view>
+
+  <view class="probox">
+    <view class="libox" wx:for="{{productlist}}" wx:key="productId">
+      <navigator url="../form/form" hover-class="none" open-type="switchTab">
+        <view class="pic">
+          <image src="{{item.proimg}}" mode="widthFix"></image>
+        </view>
+        <text>{{item.tit}}</text>
+      </navigator>
+    </view>
+  </view>
+</view>
+<!--//产品推荐-->
+
+

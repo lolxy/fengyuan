@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/contact/contact",
+    "pages/form/form"
+  ],
+  "window": {
+      "backgroundTextStyle": "dark",
+      "navigationBarBackgroundColor": "#000000",
+      "backgroundColor": "#f4f2f2",
+      "navigationBarTitleText": "福州众享智联网络技术有限公司",
+      "navigationBarTextStyle": "white",
+      "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "color": "#999999",
+    "selectedColor": "#4285f4",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home_active.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系我们",
+        "iconPath": "image/contact.png",
+        "selectedIconPath": "image/contact_active.png"
+      },
+      {
+        "pagePath": "pages/form/form",
+        "text": "项目咨询",
+        "iconPath": "image/form.png",
+        "selectedIconPath": "image/form_active.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000,
+    "connectSocket": 20000,
+    "uploadFile": 50000
+  },
+  "debug": true
+  }
