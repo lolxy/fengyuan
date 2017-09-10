@@ -1,10 +1,10 @@
 <!--pages/contact/contact.wxml-->
-<view class="erweimabox">
+<!-- <view class="erweimabox">
   <image src="../../image/erweima.png"></image>
-</view>
+</view> -->
 
 <view class="companyname">
-  福州众享智联网络科技有限公司
+  泉州逢源信息咨询有限公司
 </view>
 
 <view class="kefubox">
@@ -17,7 +17,7 @@
       业务咨询：
     </view>
     <view class="content" bindtap="call1">
-      182-5917-0940
+      130-5581-2121
     </view>
   </view>
 
@@ -26,25 +26,25 @@
       商务合作：
     </view>
     <view class="content" bindtap="call2">
-      133-0500-2295
+      130-5581-2121
     </view>
   </view>
 
-  <view class="libox">
+  <!-- <view class="libox">
     <view class="tit">
       网<text class="null"></text>站：
     </view>
     <view class="content">
       www.sharingany.com
     </view>
-  </view>
+  </view> -->
 
   <view class="libox">
     <view class="tit">
       地<text class="null"></text>址：
     </view>
     <view class="content c666" bindtap="openLocation">
-      福建省福州市仓山区杨周路21号钱隆汇金2#206
+      泉州市晋江市泉商环球广场三期二栋2208室
     </view>
   </view>
 </view>

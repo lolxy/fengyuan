@@ -2,7 +2,7 @@
 page{color:#464c56;}
 .erweimabox{width: 320rpx;height: 320rpx;margin: 60rpx auto 40rpx;}
 .erweimabox image{width: 320rpx;height: 320rpx;}
-.companyname{height: 40rpx;line-height: 40rpx;font-size: 32rpx;text-align: center;color:#464c56;}
+.companyname{height: 40rpx;line-height: 40rpx;font-size: 32rpx;text-align: center;color:#464c56;margin: 40rpx auto 20rpx;font-weight:bold}
 .contactbox{margin: 50rpx 70rpx;}
 .contactbox .libox{overflow: hidden;color:#464c56;font-size:30rpx;line-height: 60rpx;margin-bottom: 15rpx;}
 .contactbox .libox .tit{width: 30%;float: left;text-align: right;padding-right: 20rpx;box-sizing: border-box}

@@ -1,0 +1,36 @@
+<!--pages/detail/detail.wxml-->
+<view class="logotitlebox">
+  <image src="../../image/logotitle.png" mode="widthFix"></image>
+</view>
+
+<view class='detail-wrapper'>
+  <view wx:if="{{detailId == 1}}">
+      <image src="../../image/timg.jpg" mode="widthFix"></image>
+  </view>
+  <view wx:if="{{detailId == 2}}">
+      <image src="../../image/dljz1.png" mode="widthFix"></image>
+      <image src="../../image/dljz2.jpg" mode="widthFix"></image>
+      <image src="../../image/dljz3.png" mode="widthFix"></image>
+  </view>
+  <view wx:if="{{detailId == 3}}">
+      <image src="../../image/gszc1.jpg" mode="widthFix"></image>
+       <image src="../../image/gszc2.jpg" mode="widthFix"></image>
+        <image src="../../image/gszc3.jpg" mode="widthFix"></image>
+         <image src="../../image/gszc4.jpg" mode="widthFix"></image>
+          <image src="../../image/gszc5.jpg" mode="widthFix"></image>
+  </view>
+  <view wx:if="{{detailId == 4}}">
+      <image src="../../image/nssq1.jpg" mode="widthFix"></image>
+      <image src="../../image/nssq2.jpg" mode="widthFix"></image>
+  </view>
+  <view wx:if="{{detailId == 5}}">
+      <image src="../../image/njhz.png" mode="widthFix"></image>
+  </view>
+  <view wx:if="{{detailId == 6}}">
+      <image src="../../image/gsbg1.png" mode="widthFix"></image>
+      <image src="../../image/gsbg2.png" mode="widthFix"></image>
+      <image src="../../image/gsbg3.png" mode="widthFix"></image>
+  </view>
+</view>
+
+

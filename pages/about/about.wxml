@@ -1,0 +1,11 @@
+<!--pages/about/about.wxml-->
+<view class="companyname">
+  关于我们
+</view>
+
+<view class="pcss">
+泉州逢源信息咨询有限公司是一家经泉州市工商行政部门批准成立的，专业服务于中小企业的专业财务代理机构，以优质的服务、丰富的经验、合理的价格、良好的信誉为基础，与现有服务的企业建立了良好的长期合作关系。我们致力打造全方位、高效率的企业财税服务平台。
+</view>
+
+<view class="pcss"><b>服务理念：</b><text>服务赢得未来</text></view>
+<view class="pcss"><b>主营业务：</b><text>公司注册、代理记账、企业变更、纳税申报等服务</text></view>

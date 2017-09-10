@@ -5,13 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-    longitude: 119.269880,
-    latitude: 26.028970,
+    longitude: 118.607610,
+    latitude: 24.861450,
   },
 
   call1: function () {
     wx.makePhoneCall({
-      phoneNumber: '18259170940', //此号码并非真实电话号码，仅用于测试
+      phoneNumber: '13055812121', 
       success: function () {
         console.log("拨打电话成功！")
       },
@@ -23,7 +23,7 @@ Page({
 
   call2: function () {
     wx.makePhoneCall({
-      phoneNumber: '13305002295', //此号码并非真实电话号码，仅用于测试
+      phoneNumber: '13055812121',
       success: function () {
         console.log("拨打电话成功！")
       },
@@ -56,7 +56,7 @@ Page({
       success: function (res) {
         wx.openLocation({
           name:'泉州逢源信息咨询有限公司',
-          address:'福建省福州市仓山区杨周路21号钱隆汇金2#206',
+          address:'泉州市晋江市泉商环球广场三期二栋2208室',
           latitude: latitude,
           longitude: longitude,
           scale: 28
@@ -102,7 +102,17 @@ Page({
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
-  
+  onShareAppMessage: function (res) {
+    return {
+      title: '泉州逢源信息咨询有限公司',
+      desc: '泉州逢源信息咨询有限公司',
+      path: '/pages/contact/contact',
+      success: function (res) {
+        // 转发成功
+      },
+      fail: function (res) {
+        // 转发失败
+      }
+    }
   }
 })

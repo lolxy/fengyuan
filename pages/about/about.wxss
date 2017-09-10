@@ -1,0 +1,6 @@
+/* pages/about/about.wxss */
+page{color:#464c56;}
+.companyname{height: 50rpx;line-height: 50rpx;font-size: 32rpx;text-align: center;color:#464c56;font-weight: bold;margin-top: 20px;color:#333333}
+.pcss{margin-top: 10rpx;font-size:30rpx;line-height: 50rpx;padding:20rpx;color:#666666}
+.pcss b{font-weight:bold;}
+.pcss text{color:#999999;}

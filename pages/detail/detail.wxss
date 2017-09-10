@@ -1,0 +1,2 @@
+/* pages/detail/detail.wxss */
+.logotitlebox{width: 60%;overflow: hidden}

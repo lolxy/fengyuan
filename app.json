@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/contact/contact",
-    "pages/form/form"
+    "pages/about/about",
+    "pages/detail/detail"
   ],
   "window": {
       "backgroundTextStyle": "dark",
@@ -25,7 +26,7 @@
         "selectedIconPath": "image/home_active.png"
       },
       {
-        "pagePath": "pages/contact/contact",
+        "pagePath": "pages/about/about",
         "text": "关于我们",
         "iconPath": "image/about.png",
         "selectedIconPath": "image/about_active.png"
@@ -35,12 +36,6 @@
         "text": "联系我们",
         "iconPath": "image/contact.png",
         "selectedIconPath": "image/contact_active.png"
-      },
-      {
-        "pagePath": "pages/form/form",
-        "text": "项目咨询",
-        "iconPath": "image/form.png",
-        "selectedIconPath": "image/form_active.png"
       }
     ]
   },
