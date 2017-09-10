@@ -55,7 +55,7 @@ Page({
       type: 'gcj02', //返回可以用于wx.openLocation的经纬度
       success: function (res) {
         wx.openLocation({
-          name:'福州众享智联网络科技有限公司',
+          name:'泉州逢源信息咨询有限公司',
           address:'福建省福州市仓山区杨周路21号钱隆汇金2#206',
           latitude: latitude,
           longitude: longitude,

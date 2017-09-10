@@ -5,8 +5,7 @@ Page({
   data: {
     imgUrls: [
       '../../image/img01.png',
-      '../../image/img02.png',
-      '../../image/img03.png'
+      '../../image/img02.png'
     ],
     menulist:[
       {'icon':'../../image/icon1.png',url:'#',tit:'企业建站'},
@@ -47,8 +46,8 @@ Page({
   //设置分享
   onShareAppMessage: function (res) {
     return {
-      title: '福州众享智联网络技术有限公司',
-      desc: '福州众享智联网络技术有限公司',
+      title: '泉州逢源信息咨询有限公司',
+      desc: '泉州逢源信息咨询有限公司',
       path: '/pages/index/index',
       success: function (res) {
         // 转发成功

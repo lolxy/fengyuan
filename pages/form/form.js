@@ -48,7 +48,7 @@ Page({
     }, 2000)
   }else{
     wx.request({
-      url: 'http://www.sharingany.com/index.php/api/guestbook/addcontact',
+      url: '',
       header: {
         "Content-Type": "application/x-www-form-urlencoded"
       },

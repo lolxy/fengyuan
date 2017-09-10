@@ -8,7 +8,7 @@
       "backgroundTextStyle": "dark",
       "navigationBarBackgroundColor": "#000000",
       "backgroundColor": "#f4f2f2",
-      "navigationBarTitleText": "福州众享智联网络技术有限公司",
+      "navigationBarTitleText": "泉州逢源信息咨询有限公司",
       "navigationBarTextStyle": "white",
       "enablePullDownRefresh": true
   },
@@ -23,6 +23,12 @@
         "text": "首页",
         "iconPath": "image/home.png",
         "selectedIconPath": "image/home_active.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "关于我们",
+        "iconPath": "image/about.png",
+        "selectedIconPath": "image/about_active.png"
       },
       {
         "pagePath": "pages/contact/contact",
