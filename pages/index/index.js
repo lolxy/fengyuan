@@ -8,12 +8,12 @@ Page({
       '../../image/img02.png'
     ],
     productlist: [
-      { id:1,'proimg': '../../image/xcx01.png', tit: '财务实训'}, 
-      { id: 2,'proimg': '../../image/xcx02.png', tit: '代理记账' },
-      { id: 3,'proimg': '../../image/xcx03.png', tit: '公司注册' },
+      { id: 3, 'proimg': '../../image/xcx03.png', tit: '公司注册' },
+      { id: 2, 'proimg': '../../image/xcx02.png', tit: '代理记账' },
+      { id: 6, 'proimg': '../../image/xcx06.png', tit: '企业变更' },
       { id: 4,'proimg': '../../image/xcx04.png', tit: '纳税申报' },
       { id: 5,'proimg': '../../image/xcx05.png', tit: '年检换照' },
-      { id: 6, 'proimg': '../../image/xcx06.png', tit: '企业变更'}
+      { id: 1, 'proimg': '../../image/xcx01.png', tit: '财务实训' }
     ],
     indicatorDots: false,
     autoplay: false,
